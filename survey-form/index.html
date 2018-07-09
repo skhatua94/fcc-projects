@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+</head>
+
+<body>
+  <div class="survey-body">
+    <h1 id="title"> Survey Form</h1>
+    <fieldset>
+      <legend id="description"> This survey is designed to understand the publics' impacts on environmental issues. </legend>
+
+      <form id="survey-form">
+
+        <div> <label for "name">Name:</label>
+          <input type=text id=name-label name="user_name">
+        </div>
+        <div>
+          <label for "email">Email:</label>
+          <input type=email id=email-label name="user_mail">
+        </div>
+        <div>
+          <label for "number">Number:</label>
+          <input type=number id=number-lable name="user_number">
+        </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Which of the following actions do you perform to help the environment weekly?</legend>
+
+      <div>
+        <input type="checkbox" id="recycling" name="action" value="recycling">
+        <label for="recycling">Recycling</label>
+      </div>
+      <div>
+        <input type="checkbox" id="cleaning" name="action" value="cleaning">
+        <label for="cleaning">Participating in a environmental cleaning association</label>
+      </div>
+      <div>
+        <input type="checkbox" id="composting" name="action" value="composting">
+        <label for="composting">Composting</label>
+      </div>
+      <div>
+        <input type="checkbox" id="carpooling" name="action" value="carpooling">
+        <label for="carpooling">Carpooling</label>
+      </div>
+      <div>
+        <input type="checkbox" id="no car" name="action" value="no car">
+        <label for="no car">Riding your bike or walking instead of using car</label>
+      </div>
+      <div>
+        <input type="checkbox" id="light bulbs" name="action" value="light bulbs">
+        <label for="light bulbs">Using compact fluorescent light bulbs</label>
+      </div>
+
+  </fieldset>
+  <fieldset>
+    <legend>How often do you turn off the water while you brush your teeth?</legend>
+    <div>
+      <input type="radio" id="answer choice 1" name="answer" value="always">
+      <label for "answer choice 1">Always</label>
+    </div>
+    <div>
+      <input type="radio" id="answer choice 2" name="answer" value="sometimes">
+      <label for "answer choice 2">Sometimes</label>
+    </div>
+    <div>
+      <input type="radio" id="answer choice 3" name="answer" value="never">
+      <label for "answer choice 3">Never</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+
+    <legend id="Question">What type of car do you drive?</legend>
+    <id="dropdown">
+      <select name="type of car">
+      <option value="electric">Electric</option>
+      <option value="hybrid">Hybrid</option>
+      <option value="diesel">Diesel</option>
+      <option value="gas">Gas</option>
+      <option value="none">None</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <legend>Comments or Concerns?</legend>
+
+    <textarea></textarea>
+  </fieldset>
+
+  <div>
+    <input type="submit" value="Submit">
+  </div>
+
+  </form>
+  </div>
+</body>
+  
+  
+
+</body>
+
+</html>
